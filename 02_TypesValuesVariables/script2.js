@@ -20,6 +20,7 @@ let myNum = 0;
 console.log(`type of myNum is ${typeof myNum}`);
 
 let myString = 'Good';
+//`` template literal (string literal + ${Javascript Expression is + - * % ...})  ใช้ ``แทน + ที่ปกติเขียนในJava
 console.log(`type of myString is ${typeof myString}`);
 
 let myBool = true;
@@ -54,7 +55,7 @@ let myObj2 = {
   task: 'grading exam'
 };
 console.log(`${JSON.stringify(myObj)}`);
-//The JSON.stringify() method converts a JavaScript object or value to a JSON string
+//The JSON.stringify() method converts a JavaScript object or value to a JSON string stringify พิมพ์ object เป็น string
 console.log(`type of myObj is ${typeof myObj}`);
 
 newObj = myObj;
