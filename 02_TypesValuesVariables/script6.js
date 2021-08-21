@@ -1,0 +1,25 @@
+//let, const, var
+//const can't be updated but let and var can be updated
+//cost and let can't be re-declared but var can re-declared :declare คือการประกาศค่า
+//cost like final static in java it's can't change value
+
+/* var x //declare 
+x=10; //defualt is var assign คือการกำหนดค่า */
+
+//var have 2 scope are global and local
+
+//var with global scope, under window object ex.window.std
+var std = 10;
+var std = `myStudent`; //re-declared std variable สร้างตัวแปรใหม่ใช้ชื่อเดิม
+//can re-assign use = 
+
+function doSomething() {
+    //var with local scope can use only in {}
+    var msg = `INT201-JS`;
+    console.log(msg);
+
+
+}
+//console.log(msg); :Error: msg is not defined
+console.log(std); //myStudent
+console.log(doSomething);
