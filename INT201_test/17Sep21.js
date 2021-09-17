@@ -28,6 +28,7 @@ console.log(std3);
 //4
 function doSomething2(num){ //num=num3 
     num=555;
+    //console.log(num); //555
 }
 
 let num3 = 1; 
